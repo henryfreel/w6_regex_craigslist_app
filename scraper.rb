@@ -35,7 +35,11 @@ def get_todays_results(results, date_str)
     end
   end
   
+  # comment out below to see today's results before filter
   filter_links(todays_results)
+
+  # comment in below to see today's results before filter
+  # todays_results
 end
 
 # get all page results from craigslist

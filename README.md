@@ -2,7 +2,6 @@
 
 Your task is to write a **Puppy Scraper**. Your scraper will search Craigslist for all pets in the SF area and use regex to return the date, title, and location for any posting that matches the words "pup", "puppy", "puppies", or "dog".
 
-
 <img src="http://xrdj144og6l4bdn0u3zy34o9.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/Gorgeous_puppies.jpg">
 
 ## Challenges
@@ -18,3 +17,5 @@ Your task is to write a **Puppy Scraper**. Your scraper will search Craigslist f
 
 1. Fork this repo, and clone it onto your local machine.
 2. From the terminal, run `ruby scraper.rb`.
+3. Your program returns an empty array. Your goal is to edit the `filter_links` method to add results to the `dogs` array based on the regex matching you write.
+  * To see the all results scraped from Craigslist before filling out `filter_links`, *comment out* line 39 and *comment in* line 42.
