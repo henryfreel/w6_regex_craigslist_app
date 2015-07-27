@@ -17,5 +17,5 @@ Your task is to write a **Puppy Scraper**. Your scraper will search Craigslist f
 
 1. Fork this repo, and clone it onto your local machine.
 2. From the terminal, run `ruby scraper.rb`.
-3. Your program returns an empty array `dogs`. Your goal is to edit the `filter_links` method to add results to the `dogs` array based on the regex matching you write.
+3. Your program returns an empty array (`dogs`). Your goal is to edit the `filter_links` method to add results to the `dogs` array based on the regex matching you write.
   * To see the all results scraped from Craigslist before filling out `filter_links`, *comment out* line 39 and *comment in* line 42.
