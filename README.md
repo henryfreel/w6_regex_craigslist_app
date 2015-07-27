@@ -2,7 +2,8 @@
 
 Your task is to write a **Puppy Scraper**. Your scraper will search Craigslist for all pets in the SF area and use regex to return the date, title, and location for any posting that matches the words "pup", "puppy", "puppies", or "dog".
 
-<img src="http://images.craigslist.org/00G0G_3iU0WdkbvPy_600x450.jpg">
+
+<img src="http://xrdj144og6l4bdn0u3zy34o9.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/Gorgeous_puppies.jpg">
 
 ## Challenges
 
