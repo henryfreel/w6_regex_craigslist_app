@@ -14,13 +14,13 @@ def filter_links(results)
   item_regex = /house|item|boots|walker|sitter/i
 
   # regex for image indicator ("pic")
-  image_regex = /pic/i
+  image_regex = /pic/
 
   # filter results that match `dog_regex` and DO NOT match `item_regex`
   # Hint: you'll want to iterate through `results` and push each result
-  # into `dogs` if it meets the regex requirements
+  # into `dogs` array if it meets the regex requirements
   results.each do |result|
-    if result[:title].match(dog_regex) && !result[:title].match(item_regex) && result[:image].match(image_regex)
+    if dog_regex.match(result[:title]) && !item_regex.match(result[:title]) && image_regex.match(result[:image])
       dogs.push(result)
     end
   end
