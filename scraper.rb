@@ -6,18 +6,18 @@ require 'awesome_print'
 # filter links
 def filter_links(results)
   dogs = []
-  
+
   # regex for words matching "pup", "puppy", "puppies", or "dog"
-  # e.g. `dog_regex = ...`
+  # e.g. dog_regex = ...
   ## YOUR CODE HERE
-  
+
   # regex for words matching "house", "item", "boots", "walker", or "sitter"
-  # e.g. `item_regex = ...`
+  # e.g. item_regex = ...
   ## YOUR CODE HERE
 
   # filter results that match `dog_regex` and DO NOT match `item_regex`
   # Hint: you'll want to iterate through `results` and push each result
-  # into `dogs` if it meets the regex requirements
+  # into `dogs` array if it meets the regex requirements
   ## YOUR CODE HERE
 
   # return dogs array
@@ -35,7 +35,7 @@ def get_todays_results(results, date_str)
       todays_results.push(result)
     end
   end
-  
+
   # comment out below to see today's results before filter
   filter_links(todays_results)
 
