@@ -20,6 +20,7 @@ def filter_links(results)
   # into `dogs` if it meets the regex requirements
   ## YOUR CODE HERE
 
+  # return dogs array
   dogs
 end
 

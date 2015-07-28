@@ -11,7 +11,7 @@ Your task is to write a **Puppy Scraper**. Your scraper will search Craigslist f
 2. In addition to matching the keywords above, only return results where the title DOES NOT include "house", "item", "boots", "walker", or "sitter".
 
 3. **Bonus:** Only return results that have an image.
-  * **Hint:** This will involve scraping an extra page element in `get_page_results` as well as updating the logic in `filter_links`. You will need to visit <a href="http://sfbay.craigslist.org/sfc/pet">http://sfbay.craigslist.org/sfc/pet</a> in the browser and use `Inspect Element` to find the page element containing the image flag (`pic`).
+  * **Hint:** This will involve scraping an extra page element in `get_page_results` as well as updating the logic in `filter_links`. You will need to visit <a href="http://sfbay.craigslist.org/sfc/pet" target="_blank">http://sfbay.craigslist.org/sfc/pet</a> in the browser and use `Inspect Element` to find the page element containing the image flag ("pic").
 
 ## How to Get Started
 
