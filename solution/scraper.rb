@@ -25,6 +25,7 @@ def filter_links(results)
     end
   end
 
+  # return dogs array
   dogs
 end
 
